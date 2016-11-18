@@ -3,5 +3,23 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
+  <TextView
+          android:text="No pienses en nada que no sea el número, porque me estas distrayendo."
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView1" 
+        android:textSize="20dp"
+        android:gravity="center" />
+  <TextView
+      android:text="Ahora, ese número que pensaste súmale  el número 7"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:gravity="center"  />
+  <Button
+      android:text="Continuar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonContinuarPaso2" />
 </LinearLayout>

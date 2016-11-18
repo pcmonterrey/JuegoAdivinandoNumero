@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+          android:text="Lo tengo !!"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/textView1"
+          android:textSize="20dp"
+          android:gravity="center" />
+  <TextView
+      android:text="El número que pensaste es:"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView2"
+      android:textSize="20dp"
+      android:gravity="center" />
+  <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textResultado"
+      android:textSize="30dp"
+      android:gravity="center"
+      android:textColor="#ff0000" />
+  <Button
+      android:text="Finalizar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/buttonContinuarPasoFin" />
+</LinearLayout>

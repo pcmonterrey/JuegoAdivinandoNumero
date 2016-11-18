@@ -47,12 +47,64 @@ namespace JuegoAdivinandoNumero
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int magia = 2130837505;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050003
+			public const int buttonContinuarPaso1 = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int buttonContinuarPaso2 = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int buttonContinuarPaso3 = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int buttonContinuarPaso4 = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int buttonContinuarPaso5 = 2131034119;
+			
+			// aapt resource value: 0x7f050009
+			public const int buttonContinuarPaso6 = 2131034121;
+			
+			// aapt resource value: 0x7f05000b
+			public const int buttonContinuarPasoFin = 2131034123;
+			
+			// aapt resource value: 0x7f050000
+			public const int buttonContinuarTruco1 = 2131034112;
+			
+			// aapt resource value: 0x7f050008
+			public const int editText1 = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int textResultado = 2131034122;
+			
+			// aapt resource value: 0x7f050001
+			public const int textView1 = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int textView2 = 2131034114;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -76,7 +128,13 @@ namespace JuegoAdivinandoNumero
 			public const int Paso4 = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int PasoFin = 2130903045;
+			public const int Paso5 = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Paso6 = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Paso7 = 2130903047;
 			
 			static Layout()
 			{
